@@ -12,7 +12,7 @@ pipeline {
    stage('checkout') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/uday0007/project-game-of-life.git'
+            git 'https://github.com/nsivasg/demo.git'
         }
         
         }
