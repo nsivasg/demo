@@ -3,8 +3,8 @@ pipeline {
 
    tools {
       // Install the Maven version configured as "M3" and add it to the path.
-	  jdk 'JAVA'
-      maven "MAVEN"
+	  jdk 'Java8'
+      maven "Maveen-3.3.9"
    }
    
    stages
@@ -12,7 +12,7 @@ pipeline {
    stage('checkout') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/uday0007/project-game-of-life.git'
+            git 'https://github.com/nsivasg/demo.git'
         }
         
         }
